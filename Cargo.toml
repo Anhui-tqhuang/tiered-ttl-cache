@@ -1,0 +1,12 @@
+[package]
+name = "tiered-ttl-cache"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+bytes = "1.11.0"
+memmap2 = "0.9.9"
+moka = { version = "0.12.12", features = ["future"] }
+tokio = { version = "1.49.0", features = ["full", "io-util"] }
+uuid = { version = "1.19.0", features = ["v4"] }
