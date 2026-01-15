@@ -16,3 +16,11 @@ memmap2 = "0.9.9"
 moka = { version = "0.12.12", features = ["future"] }
 tokio = { version = "1.49.0", features = ["full", "io-util"] }
 uuid = { version = "1.19.0", features = ["v4"] }
+
+[dev-dependencies]
+criterion = { version = "0.8.1", features = ["html_reports", "async_tokio"] }
+rand = "0.9.2"
+
+[[bench]]
+name = "tiered_cache_bench"
+harness = false
