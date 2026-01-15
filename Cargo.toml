@@ -2,6 +2,12 @@
 name = "tiered-ttl-cache"
 version = "0.1.0"
 edition = "2024"
+description = "A flexible, multi-tiered caching library with Time-To-Live (TTL) support."
+license = "MIT"
+repository = "https://github.com/Anhui-tqhuang/tiered-ttl-cache"
+readme = "README.md"
+keywords = ["cache", "ttl", "tiered", "async"]
+categories = ["caching", "data-structures"]
 
 [dependencies]
 anyhow = "1.0.100"
